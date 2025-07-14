@@ -7,8 +7,8 @@ public class LibraryBook extends Book{
     private boolean isIssued;
     private String dueDate;
 
-    public LibraryBook(String author, String title, String ISBN){
-        super(author, title, ISBN);
+    public LibraryBook(String title, String author, String ISBN){
+        super(title, author, ISBN);
         this.isIssued = false;
         this.dueDate = null;
     }
